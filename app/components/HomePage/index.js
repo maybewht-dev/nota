@@ -42,8 +42,8 @@ const HomePage = (props) => (
   <div>
     <div className="home-banner">
       <h2 className="home-banner-text">
-        <span style={{ color: "#10c7fd" }}>Listen</span> to music for free, no
-        ads
+        <span style={{ color: "#10c7fd" }}>нота.</span> твоя музыка, твоя
+        нота.
       </h2>
     </div>
     <div className="homepage home-container">
