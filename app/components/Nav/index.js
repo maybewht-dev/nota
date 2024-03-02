@@ -63,14 +63,14 @@ class Nav extends React.Component {
     return (
       <nav>
         <div className="logo">
-          <Link to="/">Echo</Link>
+          <Link to="/">нота</Link>
         </div>
         <div className="searchBar">
           <div className="search-wrapper">
             <i className="ion-search"></i>
             <input
               type="text"
-              placeholder="search for songs"
+              placeholder="ищи ту самую ноту"
               value={this.state.term}
               onChange={this.handleOnChange.bind(this)}
             />
@@ -90,7 +90,7 @@ class Nav extends React.Component {
                 className="animating_link"
                 activeClassName="nav-menu-link-active"
               >
-                Home
+                дом
               </IndexLink>
             </li>
             <li>
@@ -99,7 +99,7 @@ class Nav extends React.Component {
                 className="animating_link"
                 activeClassName="nav-menu-link-active"
               >
-                Charts
+                плейлисты
               </Link>
             </li>
             <li>
@@ -108,7 +108,7 @@ class Nav extends React.Component {
                 className="animating_link"
                 activeClassName="nav-menu-link-active"
               >
-                Albums
+                альбомы
               </Link>
             </li>
             <li>
@@ -117,7 +117,7 @@ class Nav extends React.Component {
                 className="animating_link"
                 activeClassName="nav-menu-link-active"
               >
-                Artists
+                артисты
               </Link>
             </li>
           </ul>
@@ -129,7 +129,7 @@ class Nav extends React.Component {
               Log In
             </Link>
             <Link to="/signup" className="animating_link">
-              Sign Up
+              войти в ноту
             </Link>
           </div>
         ) : (
