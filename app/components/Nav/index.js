@@ -126,10 +126,10 @@ class Nav extends React.Component {
           <div className="auth-btns">
             <Link to="/login" className="animating_link">
               <img src="/svg/login.svg" />
-              Log In
+              войти в ноту
             </Link>
             <Link to="/signup" className="animating_link">
-              войти в ноту
+              открыть ноту
             </Link>
           </div>
         ) : (
